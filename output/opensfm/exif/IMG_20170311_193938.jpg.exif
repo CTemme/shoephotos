@@ -1,0 +1,15 @@
+{
+    "width": 2400, 
+    "camera": "v2 lge nexus 5x 1276 2400 perspective 0", 
+    "projection_type": "perspective", 
+    "orientation": 1, 
+    "focal_ratio": 0, 
+    "make": "LGE", 
+    "gps": {
+        "latitude": 40.799436111111106, 
+        "longitude": -73.96734444444445
+    }, 
+    "model": "Nexus 5X", 
+    "capture_time": 1489261329.167, 
+    "height": 1276
+}

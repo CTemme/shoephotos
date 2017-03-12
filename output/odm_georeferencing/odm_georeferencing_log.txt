@@ -1,0 +1,71 @@
+/code/build/bin/odm_georef_log.txt
+Arguments given
+-bundleFile
+/code/opensfm/bundle_r000.out
+-inputCoordFile
+/code/odm_georeferencing/coords.txt
+-inputFile
+/code/odm_texturing/odm_textured_model.obj
+-outputFile
+/code/odm_texturing/odm_textured_model_geo.obj
+-inputPointCloudFile
+/code/opensfm/depthmaps/merged.ply
+-outputPointCloudFile
+/code/odm_georeferencing/odm_georeferenced_model.ply
+-logFile
+/code/odm_georeferencing/odm_georeferencing_log.txt
+-georefFileOutputPath
+/code/odm_georeferencing/odm_georeferencing_model_geo.txt
+
+Reading cameras from: /code/opensfm/bundle_r000.out
+Reading cameras gps exif positions from: /code/odm_georeferencing/coords.txt
+Reading textured mesh from: /code/odm_texturing/odm_textured_model.obj
+Writing output to: /code/odm_texturing/odm_textured_model_geo.obj
+Reading point cloud from: /code/opensfm/depthmaps/merged.ply
+Writing output to: /code/odm_georeferencing/odm_georeferenced_model.ply
+Log file path was set to: /code/odm_georeferencing/odm_georeferencing_log.txt
+Georef file output path is set to: /code/odm_georeferencing/odm_georeferencing_model_geo.txt
+
+Missing input in order to use GCP for georeferencing. Using EXIF data instead.
+
+Geographical reference system
+WGS84 UTM 18N
+587110 4517007
+
+Choosing optimal camera triplet...
+[5 of 8] Mean georeference error 8.7728 (4, 5, 10)
+[3 of 8] Mean georeference error 8.8056 (10, 12, 17)
+[2 of 8] Mean georeference error 8.4523 (1, 12, 19)
+[7 of 8] Mean georeference error 8.4523 (6, 12, 19)
+[6 of 8] Mean georeference error 8.48552 (13, 14, 18)
+[8 of 8] Mean georeference error 8.4523 (7, 12, 19)
+[4 of 8] Mean georeference error 8.4523 (3, 12, 19)
+[1 of 8] Mean georeference error 8.4523 (8, 12, 19)
+Mean georeference error 8.4523
+... optimal camera triplet chosen:
+8, 12, 19
+
+Final transform:
+[ 0.48638071,	1.10893466,	-2.06459255,	1.33961547 ]
+[ -2.12990221,	1.08879050,	0.08304504,	-1.07522000 ]
+[ 0.97764770,	1.82034168,	1.20805868,	-0.00000000 ]
+[ 0.00000000,	0.00000000,	0.00000000,	1.00000000 ]
+
+Reading mesh file...
+.. mesh file read.
+
+Applying transform to mesh...
+.. mesh transformed.
+
+Saving mesh file to '/code/odm_texturing/odm_textured_model_geo.obj'...
+.. mesh file saved.
+Successfully loaded 46249 points with corresponding normals from file.
+
+Applying transform to point cloud...
+.. point cloud transformed.
+
+Saving point cloud file to '/code/odm_georeferencing/odm_georeferenced_model.ply'...
+.. point cloud file saved.
+
+Saving georeference system file to '/code/odm_georeferencing/odm_georeferencing_model_geo.txt'...
+... georeference system saved.

@@ -1,0 +1,301 @@
+/code/build/bin/odm_orthophoto_log.txt
+
+Arguments given
+-inputFile
+/code/odm_texturing/odm_textured_model_geo.obj
+-logFile
+/code/odm_orthophoto/odm_orthophoto_log.txt
+-outputFile
+/code/odm_orthophoto/odm_orthophoto.png
+-resolution
+20.0
+-outputCornerFile
+/code/odm_orthophoto/odm_orthophoto_corners.txt
+
+Reading textured mesh from: /code/odm_texturing/odm_textured_model_geo.obj
+Log file path was set to: /code/odm_orthophoto/odm_orthophoto_log.txt
+Writing output to: /code/odm_orthophoto/odm_orthophoto.png
+Resolution count was set to: 20pixels/meter
+Writing corners to: /code/odm_orthophoto/odm_orthophoto_corners.txt
+
+Reading mesh file...
+.. mesh file read.
+
+Number of faces in the model 154689
+Set boundary to contain entire model.
+Local boundary points:
+Point 1: 4.2857 -2.93893
+Point 2: 4.2857 13.2742
+Point 3: 14.2797 13.2742
+Point 4: 14.2797 -2.93893
+
+Ortho photo bounds x : 4.2857 -> 14.2797
+Ortho photo bounds y : -2.93893 -> 13.2742
+Ortho photo area : 162.034m2
+Ortho photo resolution, width x height : 200x325
+Translating and scaling mesh...
+.. mesh translated and scaled.
+
+Rendering the ortho photo...
+Material 0 rendered.
+Warning: Sliver polygon found at face index 146549
+Warning: Sliver polygon found at face index 146550
+Warning: Sliver polygon found at face index 146551
+Warning: Sliver polygon found at face index 146552
+Warning: Sliver polygon found at face index 149974
+Warning: Sliver polygon found at face index 149975
+Warning: Sliver polygon found at face index 149976
+Warning: Sliver polygon found at face index 149977
+Warning: Sliver polygon found at face index 150837
+Warning: Sliver polygon found at face index 150838
+Warning: Sliver polygon found at face index 150839
+Warning: Sliver polygon found at face index 150840
+Warning: Sliver polygon found at face index 150841
+Warning: Sliver polygon found at face index 150842
+Warning: Sliver polygon found at face index 150843
+Warning: Sliver polygon found at face index 150844
+Warning: Sliver polygon found at face index 151766
+Warning: Sliver polygon found at face index 151767
+Warning: Sliver polygon found at face index 152017
+Warning: Sliver polygon found at face index 152018
+Warning: Sliver polygon found at face index 152065
+Warning: Sliver polygon found at face index 152066
+Warning: Sliver polygon found at face index 152067
+Warning: Sliver polygon found at face index 152068
+Warning: Sliver polygon found at face index 152434
+Warning: Sliver polygon found at face index 152435
+Warning: Sliver polygon found at face index 152436
+Warning: Sliver polygon found at face index 152437
+Warning: Sliver polygon found at face index 152438
+Warning: Sliver polygon found at face index 152439
+Warning: Sliver polygon found at face index 152440
+Warning: Sliver polygon found at face index 152441
+Warning: Sliver polygon found at face index 152442
+Warning: Sliver polygon found at face index 152443
+Warning: Sliver polygon found at face index 152444
+Warning: Sliver polygon found at face index 152445
+Warning: Sliver polygon found at face index 152446
+Warning: Sliver polygon found at face index 152447
+Warning: Sliver polygon found at face index 152448
+Warning: Sliver polygon found at face index 152449
+Warning: Sliver polygon found at face index 152450
+Warning: Sliver polygon found at face index 152451
+Warning: Sliver polygon found at face index 152464
+Warning: Sliver polygon found at face index 152465
+Warning: Sliver polygon found at face index 152466
+Warning: Sliver polygon found at face index 152467
+Warning: Sliver polygon found at face index 152483
+Warning: Sliver polygon found at face index 152484
+Warning: Sliver polygon found at face index 152485
+Warning: Sliver polygon found at face index 152486
+Warning: Sliver polygon found at face index 152711
+Warning: Sliver polygon found at face index 152712
+Warning: Sliver polygon found at face index 152734
+Warning: Sliver polygon found at face index 152735
+Warning: Sliver polygon found at face index 152736
+Warning: Sliver polygon found at face index 152737
+Warning: Sliver polygon found at face index 152787
+Warning: Sliver polygon found at face index 152788
+Warning: Sliver polygon found at face index 152789
+Warning: Sliver polygon found at face index 152790
+Warning: Sliver polygon found at face index 152791
+Warning: Sliver polygon found at face index 152792
+Warning: Sliver polygon found at face index 152793
+Warning: Sliver polygon found at face index 152794
+Warning: Sliver polygon found at face index 152805
+Warning: Sliver polygon found at face index 152806
+Warning: Sliver polygon found at face index 152807
+Warning: Sliver polygon found at face index 152808
+Warning: Sliver polygon found at face index 152823
+Warning: Sliver polygon found at face index 152824
+Warning: Sliver polygon found at face index 152825
+Warning: Sliver polygon found at face index 152826
+Warning: Sliver polygon found at face index 152938
+Warning: Sliver polygon found at face index 152939
+Warning: Sliver polygon found at face index 152940
+Warning: Sliver polygon found at face index 152941
+Warning: Sliver polygon found at face index 152944
+Warning: Sliver polygon found at face index 152945
+Warning: Sliver polygon found at face index 152951
+Warning: Sliver polygon found at face index 152952
+Warning: Sliver polygon found at face index 152953
+Warning: Sliver polygon found at face index 152954
+Warning: Sliver polygon found at face index 152965
+Warning: Sliver polygon found at face index 152966
+Warning: Sliver polygon found at face index 152967
+Warning: Sliver polygon found at face index 152968
+Warning: Sliver polygon found at face index 152969
+Warning: Sliver polygon found at face index 152970
+Warning: Sliver polygon found at face index 153079
+Warning: Sliver polygon found at face index 153080
+Material 1 rendered.
+Warning: Sliver polygon found at face index 153339
+Warning: Sliver polygon found at face index 153340
+Warning: Sliver polygon found at face index 153343
+Warning: Sliver polygon found at face index 153344
+Warning: Sliver polygon found at face index 153345
+Warning: Sliver polygon found at face index 153346
+Warning: Sliver polygon found at face index 153369
+Warning: Sliver polygon found at face index 153370
+Warning: Sliver polygon found at face index 153371
+Warning: Sliver polygon found at face index 153372
+Warning: Sliver polygon found at face index 153383
+Warning: Sliver polygon found at face index 153384
+Warning: Sliver polygon found at face index 153385
+Warning: Sliver polygon found at face index 153386
+Warning: Sliver polygon found at face index 153547
+Warning: Sliver polygon found at face index 153548
+Warning: Sliver polygon found at face index 153551
+Warning: Sliver polygon found at face index 153552
+Warning: Sliver polygon found at face index 153586
+Warning: Sliver polygon found at face index 153587
+Warning: Sliver polygon found at face index 153588
+Warning: Sliver polygon found at face index 153589
+Warning: Sliver polygon found at face index 153592
+Warning: Sliver polygon found at face index 153593
+Warning: Sliver polygon found at face index 153602
+Warning: Sliver polygon found at face index 153603
+Warning: Sliver polygon found at face index 153615
+Warning: Sliver polygon found at face index 153616
+Warning: Sliver polygon found at face index 153657
+Warning: Sliver polygon found at face index 153658
+Warning: Sliver polygon found at face index 153682
+Warning: Sliver polygon found at face index 153683
+Warning: Sliver polygon found at face index 153822
+Warning: Sliver polygon found at face index 153823
+Warning: Sliver polygon found at face index 153824
+Warning: Sliver polygon found at face index 153825
+Material 2 rendered.
+Warning: Sliver polygon found at face index 153915
+Warning: Sliver polygon found at face index 153916
+Warning: Sliver polygon found at face index 153917
+Warning: Sliver polygon found at face index 153918
+Warning: Sliver polygon found at face index 153957
+Warning: Sliver polygon found at face index 153958
+Warning: Sliver polygon found at face index 153962
+Warning: Sliver polygon found at face index 153963
+Warning: Sliver polygon found at face index 153974
+Warning: Sliver polygon found at face index 153975
+Warning: Sliver polygon found at face index 153976
+Warning: Sliver polygon found at face index 153977
+Warning: Sliver polygon found at face index 153986
+Warning: Sliver polygon found at face index 153987
+Warning: Sliver polygon found at face index 154012
+Warning: Sliver polygon found at face index 154013
+Warning: Sliver polygon found at face index 154014
+Warning: Sliver polygon found at face index 154015
+Warning: Sliver polygon found at face index 154016
+Warning: Sliver polygon found at face index 154017
+Warning: Sliver polygon found at face index 154216
+Warning: Sliver polygon found at face index 154217
+Warning: Sliver polygon found at face index 154223
+Warning: Sliver polygon found at face index 154224
+Warning: Sliver polygon found at face index 154225
+Warning: Sliver polygon found at face index 154226
+Warning: Sliver polygon found at face index 154237
+Warning: Sliver polygon found at face index 154238
+Warning: Sliver polygon found at face index 154248
+Warning: Sliver polygon found at face index 154249
+Warning: Sliver polygon found at face index 154264
+Warning: Sliver polygon found at face index 154265
+Warning: Sliver polygon found at face index 154266
+Warning: Sliver polygon found at face index 154267
+Warning: Sliver polygon found at face index 154268
+Warning: Sliver polygon found at face index 154269
+Warning: Sliver polygon found at face index 154270
+Warning: Sliver polygon found at face index 154271
+Warning: Sliver polygon found at face index 154285
+Warning: Sliver polygon found at face index 154286
+Warning: Sliver polygon found at face index 154288
+Warning: Sliver polygon found at face index 154289
+Warning: Sliver polygon found at face index 154290
+Warning: Sliver polygon found at face index 154291
+Warning: Sliver polygon found at face index 154292
+Warning: Sliver polygon found at face index 154293
+Warning: Sliver polygon found at face index 154295
+Warning: Sliver polygon found at face index 154296
+Warning: Sliver polygon found at face index 154297
+Warning: Sliver polygon found at face index 154298
+Warning: Sliver polygon found at face index 154299
+Warning: Sliver polygon found at face index 154300
+Warning: Sliver polygon found at face index 154301
+Warning: Sliver polygon found at face index 154302
+Warning: Sliver polygon found at face index 154303
+Warning: Sliver polygon found at face index 154304
+Warning: Sliver polygon found at face index 154308
+Warning: Sliver polygon found at face index 154309
+Warning: Sliver polygon found at face index 154310
+Warning: Sliver polygon found at face index 154311
+Warning: Sliver polygon found at face index 154321
+Warning: Sliver polygon found at face index 154322
+Warning: Sliver polygon found at face index 154342
+Warning: Sliver polygon found at face index 154343
+Warning: Sliver polygon found at face index 154357
+Warning: Sliver polygon found at face index 154358
+Warning: Sliver polygon found at face index 154360
+Warning: Sliver polygon found at face index 154361
+Warning: Sliver polygon found at face index 154362
+Warning: Sliver polygon found at face index 154363
+Warning: Sliver polygon found at face index 154364
+Warning: Sliver polygon found at face index 154365
+Warning: Sliver polygon found at face index 154386
+Warning: Sliver polygon found at face index 154387
+Warning: Sliver polygon found at face index 154388
+Warning: Sliver polygon found at face index 154389
+Warning: Sliver polygon found at face index 154390
+Warning: Sliver polygon found at face index 154391
+Warning: Sliver polygon found at face index 154403
+Warning: Sliver polygon found at face index 154404
+Warning: Sliver polygon found at face index 154405
+Warning: Sliver polygon found at face index 154406
+Warning: Sliver polygon found at face index 154408
+Warning: Sliver polygon found at face index 154409
+Warning: Sliver polygon found at face index 154417
+Warning: Sliver polygon found at face index 154418
+Warning: Sliver polygon found at face index 154421
+Warning: Sliver polygon found at face index 154422
+Warning: Sliver polygon found at face index 154423
+Warning: Sliver polygon found at face index 154424
+Warning: Sliver polygon found at face index 154425
+Warning: Sliver polygon found at face index 154426
+Warning: Sliver polygon found at face index 154427
+Warning: Sliver polygon found at face index 154428
+Warning: Sliver polygon found at face index 154430
+Warning: Sliver polygon found at face index 154431
+Warning: Sliver polygon found at face index 154432
+Warning: Sliver polygon found at face index 154433
+Warning: Sliver polygon found at face index 154480
+Warning: Sliver polygon found at face index 154481
+Warning: Sliver polygon found at face index 154484
+Warning: Sliver polygon found at face index 154485
+Warning: Sliver polygon found at face index 154486
+Warning: Sliver polygon found at face index 154487
+Warning: Sliver polygon found at face index 154490
+Warning: Sliver polygon found at face index 154491
+Material 3 rendered.
+Warning: Sliver polygon found at face index 154536
+Warning: Sliver polygon found at face index 154537
+Warning: Sliver polygon found at face index 154538
+Warning: Sliver polygon found at face index 154539
+Warning: Sliver polygon found at face index 154540
+Warning: Sliver polygon found at face index 154541
+Warning: Sliver polygon found at face index 154571
+Warning: Sliver polygon found at face index 154572
+Warning: Sliver polygon found at face index 154574
+Warning: Sliver polygon found at face index 154575
+Warning: Sliver polygon found at face index 154578
+Warning: Sliver polygon found at face index 154579
+Warning: Sliver polygon found at face index 154585
+Warning: Sliver polygon found at face index 154586
+Warning: Sliver polygon found at face index 154598
+Warning: Sliver polygon found at face index 154599
+Warning: Sliver polygon found at face index 154654
+Warning: Sliver polygon found at face index 154655
+Warning: Sliver polygon found at face index 154675
+Warning: Sliver polygon found at face index 154676
+Material 4 rendered.
+...ortho photo rendered
+
+Writing ortho photo to /code/odm_orthophoto/odm_orthophoto.png
+Writing corner coordinates to /code/odm_orthophoto/odm_orthophoto_corners.txt
+Orthophoto generation done.
